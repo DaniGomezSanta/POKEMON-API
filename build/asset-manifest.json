@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e1de5880.css",
+    "main.js": "/static/js/main.be1a33d8.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/landingImagen.gif": "/static/media/landingImagen.6bbfcb5737c6119f46f8.gif",
+    "static/media/giphy.gif": "/static/media/giphy.2e2bc8e8a8f328f478a3.gif",
+    "static/media/loading.webp": "/static/media/loading.eefeb77b91c1ad0fa405.webp",
+    "static/media/triste.gif": "/static/media/triste.802dfa85c89416761c50.gif",
+    "static/media/pokes-formulario.png": "/static/media/pokes-formulario.86ece30d82938575d544.png",
+    "static/media/logoPokemon.webp": "/static/media/logoPokemon.ee4ebaee80166ba033c4.webp",
+    "index.html": "/index.html",
+    "main.e1de5880.css.map": "/static/css/main.e1de5880.css.map",
+    "main.be1a33d8.js.map": "/static/js/main.be1a33d8.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1de5880.css",
+    "static/js/main.be1a33d8.js"
+  ]
+}

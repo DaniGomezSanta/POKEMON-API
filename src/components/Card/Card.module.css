@@ -1,0 +1,124 @@
+
+/* .card{
+    width: 400px;
+    height: 450px;
+    margin: 20px;
+    justify-content: space-around; */
+    /* align-items: center; */
+    /* border-radius: 6px;
+    overflow: hidden;
+    background-color: #daddd1;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+} */
+
+/* .card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.card_letter h3{
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+
+.card_type{
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+.card_letter h1{
+    text-decoration: none;
+    color: black;
+    font-family: cursive
+}
+
+.card_letter P{
+    text-decoration: none;
+    color: black;
+    font-family: cursive
+} */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-around;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card_container{
+    background: linear-gradient(to right, #fad61f, #fad61f);
+    width: 350px;
+    height: auto;
+    margin: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+}
+
+.card_container:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+} 
+
+
+.image {
+    width: 150px;
+    height: 150px;
+}
+
+.content {
+    background: linear-gradient(to right, #f5e593, #fff2af);
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.background {
+    text-align: center;
+    background: linear-gradient(to right, #6a5b0e, #504921);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.name {
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 10px;
+    color: black;
+}
+
+.type {
+    background-color: black;
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: -80px;
+}
+
+.logo{
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    padding: 20px;
+}
+
+.stats > p{
+    letter-spacing: 1px;
+    color: black;
+    text-align: left;
+}
+
+

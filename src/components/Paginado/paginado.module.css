@@ -1,0 +1,33 @@
+
+.paginado ul{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.paginado li{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	padding:3px 3px;
+
+}
+
+
+
+.paginado button {
+	width: 50px;
+	height: 50px;
+	background-color: #c32f27;
+	border: 5px;
+	font-size: 15px;
+	font-weight: 700;
+	border-radius: 5px;
+	transition: .2s linear;
+}
+
+.paginado button:hover{
+	background-color: #03045e;
+	color: white;
+}

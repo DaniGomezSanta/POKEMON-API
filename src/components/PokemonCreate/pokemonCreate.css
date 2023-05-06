@@ -1,0 +1,120 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main1{
+    font-family: cursive;
+    min-height: 600px;
+    padding: 1em;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    background-color: #b12a5b;
+    display: flex;
+    background-repeat: no-repeat;
+    
+}
+
+.main{
+    background-color: red;
+    margin: auto;
+    width: 90%;
+    padding: .7em;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.733), rgba(255, 255, 255, 0.685));
+    border-radius: 1em;
+
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: .6em;
+
+    animation: show 1.5s ease-in-out
+}
+
+@keyframes show{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.figure{
+    overflow: hidden;
+    border-radius: 1em;
+    display: flex;
+    background-color:#ffd9d4;
+}
+
+.imagen{
+    margin: auto;
+    width: 80%;
+    max-width: 60vw;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 3em .7em;
+    text-align: center;
+}
+
+.form{
+    display: grid;
+    justify-items: center;
+    gap: 0.5em
+    
+}
+
+.main_input{
+    /* width: 100%; */
+    max-width: 500%;
+    outline:none;
+    border: none;
+    /* padding: 0.2em; */
+    font: inherit;
+    border-radius: 1.6em;
+}
+
+.title{
+    font-size: 2.3rem;
+}
+.subtitle{
+    margin: .3em 0;
+}
+
+.button_return{
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    cursor: hand;
+    position: relative;
+    
+}
+
+.button_submit{
+    background-color: rgb(139, 180, 233);
+    color: black;
+    font-weight: 600;
+    width: 100px;
+    height: 50px;
+    border-color:  rgb(175, 175, 252);
+    border-radius: 5px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.button_submit:hover{
+    background-color: rgb(236, 51, 137);
+    border-color:  rgb(252, 175, 233);
+    color: white;
+}
+
+.errors{
+    color: black;
+    background-color: antiquewhite;
+}
